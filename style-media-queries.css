@@ -1,0 +1,57 @@
+/*******************************************************
+ *
+ * Mobile styles and other media queries
+ *
+ *******************************************************/
+/* Laptop screen */
+/* @media screen and (min-width: 1024px) {
+  #menu-left-menu li {
+    padding: 0 20px;
+  }
+  #menu-right-menu li {
+    padding: 0 20px;
+  }
+} */
+
+/* iPad(landscape) | iPad(landscape) | Galaxy Tab 4 (landscape) | Galaxy Tab 3 (landscape) */
+@media only screen and (max-width: 1199px) {
+  .hero-text__header {
+    font-size: 20px;
+  }
+}
+
+/* iPad(portrait) | Galaxy Tab 4(portrait)  */
+@media only screen and (max-width: 991px) {
+  /* The following are used on inner pages. Please edit carefully. */
+  .hero-text__header {
+    font-size: 20px;
+  }
+  .inner {
+    width: 100%;
+  }
+  #content-sidebar,
+  #content-full {
+    width: 100%;
+  }
+  .outer {
+    width: 100%;
+    min-width: 100%;
+  }
+  #content-sidebar #content {
+    width: 100%;
+  }
+}
+
+/* Galaxy Tab 3(portrait) | Galaxy S5(landscape) */
+@media only screen and (max-width: 767px) {
+  .hero-text__header {
+    font-size: 20px;
+  }
+  .ip-banner .container {
+    width: 100%;
+  }
+}
+
+/* Galaxy S5(portrait) | iPod Touch(landscape) | iPod Touch(portrait) */
+@media only screen and (max-width: 480px) {
+}
